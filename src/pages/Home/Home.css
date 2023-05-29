@@ -11,6 +11,10 @@ border: 2px solid #555;
 padding: 8px;
 min-height: 100vh;
 
+/*Grid definition*/
+row-gap: 16px;
+column-gap: 4px;
+
 }
 
 header {
