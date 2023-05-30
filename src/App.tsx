@@ -1,5 +1,5 @@
 import './App.css'
-import { Navbar } from './components';
+import { GridFlow, Navbar } from './components';
 import { Home } from './pages';
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
 
   return <>
   
-  <Home/>
+  
+  <GridFlow/>
   </>;
 }
 
