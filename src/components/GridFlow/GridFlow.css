@@ -1,8 +1,8 @@
 .container {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px
-    100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-auto-flow: column;
     }
     .container > div {
     background-color: darkblue;
@@ -12,6 +12,7 @@
     color: #ffffff;
     font-size: 24px;
     font-weight: bold;
+    
     }
     .large {
     grid-column-end: span 2;
