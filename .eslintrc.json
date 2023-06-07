@@ -4,7 +4,6 @@
     "es2021": true
   },
   "extends": [
-    "airbnb",
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -27,12 +26,16 @@
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
+    "project": ["tsconfig.json"],
     "sourceType": "module"
   },
   "parser": "@typescript-eslint/parser",
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
-    "semi": [2, "never"],
+    "semi": "off",
+    "quotes": "off",
+    "@typescript-eslint/quotes": "off",
+    "@typescript-eslint/semi": "off",
     "@typescript-eslint/class-name-casing": "off",
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/member-delimiter-style": "off",
@@ -41,6 +44,7 @@
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-empty-interface": "off",
     "no-restricted-syntax": "off",
     "no-use-before-define": "off",
     "import/extensions": "off",
