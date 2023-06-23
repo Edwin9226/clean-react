@@ -15,8 +15,7 @@ const GeolocationContainer = () => {
   };
 
   useEffect(() => {
-    // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
-    if (navigator.geolocation) {
+    if (navigator.geolocation != null) {
       navigator.geolocation.getCurrentPosition(handleSuccess);
     }
   }, []);
