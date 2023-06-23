@@ -1,21 +1,22 @@
-import React from 'react';
-import { DataGrid } from '@mui/x-data-grid';
-import './Home.css';
+import React from "react";
+import "./Home.css";
+import { Button } from "../../components";
+
 export type HomeProps = {
-}
+  name: string;
+};
 
 const Home: React.FC<HomeProps> = () => {
-	return (
-		<div className="container">
-			<header>
-				
-			</header>
-			<aside></aside>
-			<main>
-			</main>
-			<footer></footer>
-		</div>
-	);
+  return (
+    <div className="container">
+      <header></header>
+      <aside>
+        <Button text="Click Me!" />
+      </aside>
+      <main></main>
+      <footer></footer>
+    </div>
+  );
 };
 
 export default Home;

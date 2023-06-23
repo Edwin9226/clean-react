@@ -1,15 +1,12 @@
-import './App.css'
-import { GridFlow, Navbar } from './components';
-import { Home } from './pages';
+import "./App.css";
+import GeolocationContainer from "./components/Geolocation/GeolocationContainer";
 
 function App() {
- 
-
-  return <>
-  
-  
-  <GridFlow/>
-  </>;
+  return (
+    <div className="App">
+      <GeolocationContainer />
+    </div>
+  );
 }
 
-export default App
+export default App;
