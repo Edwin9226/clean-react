@@ -1,5 +1,6 @@
 import "./App.css";
 import GeolocationContainer from "./components/Geolocation/GeolocationContainer";
+import { Link } from "./components/Link";
 import { MyComponent } from "./components/MyComponent";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <GeolocationContainer />
       <MyComponent />
+      <Link link={"react.dev"} urls={"//react.dev"} />
     </div>
   );
 }

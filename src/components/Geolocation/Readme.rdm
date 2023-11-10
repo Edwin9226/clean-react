@@ -1,0 +1,20 @@
+** Exploring the container and presentational patterns
+It is a simple container and presentationalpattern  that help us to separate those two concerns.
+
+We can use the useEffect Hook to fire the request to the APIs
+
+Functional Components  are pure functions that, given a state, return the elements of it.
+
+The Following are the characteristics o container components:
+ - They are more concerned wiyh behavior
+ - They render their presetational components
+ - They make APi calls and manipulate data.
+ - They define event handlers.
+
+ The Following are the chaacteristics of presentational components:
+ - They are more Concerned with the visual representation
+ - They render more concerned with visual representation,
+ - They receive data from the aprents in the form of props.
+ - They are oten written as stateless functional components.
+
+
